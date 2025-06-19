@@ -1,0 +1,84 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ /*header start*/
+ header {
+    padding: 10px 0;
+}
+  .menu ul li a {
+  	font-size: 20px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+  .menu ul li a {
+  	font-size: 20px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+}
+/* feature start */
+.feature {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /*header start*/
+	.menu ul li a { 
+	text-align: right; 
+    padding: 10px 0 0 !important; 
+}
+/* Slider Start */
+.slider {
+  padding-bottom: 60px;
+}
+.c_ind {
+  bottom: -55px;
+}
+.c_inf [data-bs-target] {
+  width: 13px;
+  height: 13px;
+}
+.s_text {
+  margin-top: 0px;
+}
+.s text h1 {
+  font-size: 25px;
+}
+.s_text h2 {
+  margin: 10px 0px;
+  font-size: 10px;
+}
+.s_text {
+  margin-bottom: 20px;
+}
+.s_icon ul li {
+  margin-right: 15px !important;
+}
+.s_icon ul li i{
+  font-size: 35px;
+}
+/* feature start */
+.feature {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Extra large devices (laptop, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
